@@ -164,12 +164,12 @@ class Updraft
   end
 
   def out_line_color(color)
-    tag = color[/ /] ? "RG" : "G"
+    tag = color[' '] ? "RG" : "G"
     out("#{color} #{tag}")
   end
 
   def out_fill_color(color)
-    tag = color[/ /] ? "rg" : "g"
+    tag = color[' '] ? "rg" : "g"
     out("#{color} #{tag}")
   end
 
