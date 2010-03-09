@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
 
   s.name        = 'updraft'
-  s.version     = '0.5.0'
+  s.version     = '0.5.2'
   s.date        = Time.now.strftime('%Y-%m-%d')
 
   s.summary     = 'PDF generation library'
@@ -14,6 +14,10 @@ Gem::Specification.new do |s|
   s.files = %w[
     updraft.gemspec
     lib/updraft.rb
+    lib/verdana.rb
+    lib/verdana.z
+    lib/verdanab.rb
+    lib/verdanab.z
   ]
 
   s.require_paths    =['lib']
