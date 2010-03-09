@@ -1,9 +1,13 @@
 
-= Updraft: Umpteenth Portable Document Renderer And Formatting Tool
+updraft - Umpteenth Portable Document Renderer And Formatting Tool
+==================================================================
+
+## Description
 
 Updraft is a lightweight library for generating PDF files in Ruby.
 
-It was inspired by the easy to use FPDF.php and the Ruby port FPDF.rb.
+It was inspired by the easy to use [FPDF](http://www.fpdf.org/) and
+the [Ruby port](http://zeropluszero.com/software/fpdf/).
 
 Updraft should run in Ruby 1.8.x, 1.9.x, JRuby, and likely others.
 
